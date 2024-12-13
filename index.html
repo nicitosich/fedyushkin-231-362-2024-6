@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Функции</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Работа JavaScript функций</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Возведение в степень</h2>
+            <label for="pow-base">Число (x):</label>
+            <input type="number" id="pow-base" value="">
+            <label for="pow-exp">Степень (n):</label>
+            <input type="number" id="pow-exp" value="">
+            <button onclick="calculatePow()">Рассчитать</button>
+            <p id="pow-result"></p>
+        </section>
+
+        <section>
+            <h2>Нахождение НОД</h2>
+            <label for="gcd-a">Число A:</label>
+            <input type="number" id="gcd-a" value="">
+            <label for="gcd-b">Число B:</label>
+            <input type="number" id="gcd-b" value="">
+            <button onclick="calculateGCD()">Рассчитать</button>
+            <p id="gcd-result"></p>
+        </section>
+
+        <section>
+            <h2>Наименьшая цифра</h2>
+            <label for="min-digit">Число:</label>
+            <input type="number" id="min-digit" value="">
+            <button onclick="findMinDigit()">Найти</button>
+            <p id="min-digit-result"></p>
+        </section>
+
+        <section>
+            <h2>Pluralization</h2>
+            <label for="plural-number">Количество записей:</label>
+            <input type="number" id="plural-number" value="">
+            <button onclick="calculatePluralization()">Определить</button>
+            <p id="pl-result"></p>
+        </section>
+
+        <section>
+            <h2>Числа Фибоначчи</h2>
+            <label for="fibb-n">Число n:</label>
+            <input type="number" id="fibb-n" value="">
+            <button onclick="calculateFibonacci()">Рассчитать</button>
+            <p id="fibb-result"></p>
+        </section>
+    </main>
+</body>
+</html>
